@@ -7,17 +7,23 @@ body{
     opacity: 1;
 }
 nav{
-	width: 786px;
-	height:64px;
-	margin-top: 36px;
-	margin-right: 322px;
-	margin-left: 177px;
-	margin-bottom: 160px;
+    height: 64px;
+    margin-top: 36px;
+    margin-left: 140px;
+    margin-bottom: 210px;
+}
+.logo{
+    font-size: 211px;
+    display: inline-block;
+    color: #FCEE21;
+    margin-left: 70px;
 }
 ul{
 	width: 786px;
-	height: 64px;
-	display: inline-block;
+    height: 64px;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
 }
 .li{
 	width:180px;
@@ -28,6 +34,7 @@ ul{
 	opacity: 1;
 	display: inline-block;
 	font-size:48px;
+    font-family: 'Myriad';
 }
 .left{
 width: 617px;
