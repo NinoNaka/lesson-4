@@ -1,26 +1,43 @@
-body{
-	margin: : 40px;
-    width: 1286px;
-    height: 700px;
-    background: #56836F 0% 0% no-repeat padding-box;
-    border: 4px solid #006837;
-    opacity: 1;
+body,html{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	padding: 2%;
+	padding-top: 0;
 }
+header{
+	clear: right;
+}
+.float{ 
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	width: 100%;
+	height:3%;
+	margin:auto;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background: #56836F;
+    opacity: 1;
+    padding color: white;
+    border: 1px solid #006837;
+}
+
 nav{
-    height: 64px;
-    margin-top: 36px;
-    margin-left: 140px;
-    margin-bottom: 210px;
+   
+    float: right;
 }
 .logo{
-    font-size: 211px;
-    display: inline-block;
-    color: #FCEE21;
-    margin-left: 70px;
+    float: right;
+}
+.log{
+	width: 300px;
+	height: 300px;
 }
 ul{
-	width: 786px;
-    height: 64px;
     margin-top: 40px;
     display: inline-block;
     vertical-align: top;
@@ -36,46 +53,39 @@ ul{
 	font-size:48px;
     font-family: 'Myriad';
 }
+section{
+	width: 100%;
+	height: 50%;
+}
 .left{
-width: 617px;
-height: 356px;
+width: 45%;
+height: 100%;
 float: left;
-margin-left: 71px;
-margin-bottom: 80px;
 background-color: yellow;
+margin-left: 3%;
 }
 .right{
-width: 523px;
-height: 356px;
+width: 40%;
+height: 100%;
 float: right;
-margin-right: 56px;
-margin-bottom: 80px;
 background-color: yellow;
+margin-right: 3%
 
 }
-.divson{
-	padding:20px;
-	width: 563px;
-	height:170px;
-}
-.divtwoson{
-	padding: 20px;
-	width: 460px;
-	height: 170px;
-}
 .one{
-	width: 120px;
-	height: 100px;
+	width: 100px;
+	height: 150px;
 	float: right;
+	margin: 2%;
 }
 .two{
-	width: 120px;
-	height: 100px;
+	width: 100px;
+	height: 150px;
 	float: left;
+	margin: 2%;
 }
 .lorem{
-	width: 410px;
-	height: 130px;
+	width: 400px;
 	float: left;
 	text-align: left;
 	font-size: 14px;
@@ -83,10 +93,11 @@ background-color: yellow;
 	letter-spacing: 0px;
 	color: #000000;
 	opacity: 1;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 .ipsum{
-	width: 310px;
-	height: 200px;
+	width: 400px;
 	float: right;
 	text-align: left;
     font-size: 14px;
@@ -94,13 +105,13 @@ background-color: yellow;
 	letter-spacing: 0px;
 	color: #006837;
 	opacity: 1;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 .lastp{
-	width: 560px;
-	height: 150px;
-	padding: 20px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	width: 500px;
+	height: 200px;
+	margin: 20px;
 	text-align: left;
 	font-size: 14px;
     font-family: 'Segoe UI Regular';
@@ -109,14 +120,13 @@ background-color: yellow;
 	opacity: 1;
 }
 .lastptwo{
-	width: 460px;
+	width: 500px;
 	height: 100px;
-	padding: 20px;
 	text-align: left;
 	font-size: 14px;
     font-family: 'Segoe UI Regular';
 	letter-spacing: 0px;
 	color: #006837;
 	opacity: 1;
-	padding-top: 0px;
+	margin: 20px;
 }
